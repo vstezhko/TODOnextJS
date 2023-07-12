@@ -68,6 +68,7 @@ const TodoItemCard = ({
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "start",
+                marginBottom: "0",
               }}
               color="text.secondary"
               gutterBottom
@@ -100,10 +101,7 @@ const TodoItemCard = ({
         >
           {editCard === todoItem.id ? "Save" : "Edit"}
         </Button>
-        <Button
-          size="small"
-          onClick={() => handleDeleteTODO(todoItem.id)}
-        >
+        <Button size="small" onClick={() => handleDeleteTODO(todoItem.id)}>
           Delete
         </Button>
       </CardActions>
