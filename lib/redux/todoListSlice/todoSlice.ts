@@ -3,13 +3,13 @@ import {createSlice, type PayloadAction} from "@reduxjs/toolkit";
 const initialState: TODOItem[] = [
     {
         id: "1234567",
-        value: "dfghjkl",
+        value: "Send email",
         done: false,
     },
     {
-        id: "345678",
-        value: "кукукукукукук",
-        done: false,
+        id: "124567",
+        value: "Bake cake",
+        done: true,
     },
 ];
 
